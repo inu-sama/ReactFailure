@@ -13,7 +13,7 @@ export default defineConfig({
       exposes: {
         "./MainContent": "./src/components/MainContent",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "react-router-dom"],
     }),
   ],
   build: {
