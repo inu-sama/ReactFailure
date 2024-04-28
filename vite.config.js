@@ -22,4 +22,10 @@ export default defineConfig({
     minify: false,
     cssCodeSplit: false,
   },
+  preview: {
+    cors: true,
+    headers: {
+      'Access-Control-Allow-Origin': 'http://localhost:5173',
+    },
+  }
 })
