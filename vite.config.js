@@ -9,7 +9,9 @@ export default defineConfig({
     federation({
       name: "grab-food",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        headerAndFooter: "http://localhost:5001/assets/remoteEntry.js",
+      },
       exposes: {
         "./MainContent": "./src/components/MainContent",
       },
