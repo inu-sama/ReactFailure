@@ -29,5 +29,6 @@ export default defineConfig({
     headers: {
       'Access-Control-Allow-Origin': 'http://localhost:5173',
       'access-control-allow-headers': 'http://localhost:5173',
+    }
   }
 })
