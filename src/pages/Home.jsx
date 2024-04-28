@@ -8,20 +8,20 @@ function Home() {
         <div className="relative mb-36">
             <img src="https://food.grab.com/static/page-home/VN-new-2.jpg" alt="" className=""
                 style={{ height: "18rem", width: "100%", objectFit: "none" }} />
-            <div className="absolute bg-white top-5 left-36 rounded px-10 py-14 w-1/4 shadow-lg">
-                <p className="text-xl font-bold">GoodMorning</p>
-                <p className="text-4xl font-bold">Where should we deliver your food today?</p>
-                <p className="border-2 border-[#E0E0E0] rounded mt-5 mb-3 py-2 px-5">
+            <div className="absolute bg-white top-5 mx-8 md:mx-36 rounded px-10 py-14 w-4/5 md:w-1/4 shadow-lg">
+                <p className="text-lg md:text-xl font-bold">GoodMorning</p>
+                <p className="text-2xl md:text-4xl font-bold">Where should we deliver your food today?</p>
+                <p className="border-2 border-[#E0E0E0] rounded mt-5 mb-3 py-2 px-5 flex justify-between">
                     <i className="fa-solid fa-location-pin bg-[#EE6352] text-white text-xs rounded-full py-1 px-2"></i>
-                    <span className="mx-11">828 Sư Vạn Hạnh</span>
+                    <span className="">828 Sư Vạn Hạnh</span>
                     <i className="fa-solid fa-location-crosshairs text-lg text-[#00B14F]"></i>
                 </p>
                 <p className="text-white font-bold bg-[#00B14F] py-3 px-5 rounded text-center">Tìm kiếm</p>
             </div>
-            <div className="container px-36">
+            <div className="container px-8 md:px-36">
                 <hr className="my-16" />
                 <p className="text-4xl font-bold mb-6">Ưu đãi GrabFood tại <span className="text-[#00B14F]">Hà nội</span></p>
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid gap-6 md:grid-cols-4">
                     {
                         storesInfo.slice(0, 4).map(store => <Store storeImg={store.img} storeName={store.name} storeFood={store.food}
                             storeRate={store.rate} storeTravelTime={store.travelTime}
@@ -35,7 +35,7 @@ function Home() {
                     </p>
                 </a>
                 <p className="text-4xl font-bold mb-16">There's something for everyone!</p>
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                     <Category />
                 </div>
                 <p className="text-4xl font-bold mb-12 mt-24">Vì sao bạn nên Order trên GrabFood?</p>
