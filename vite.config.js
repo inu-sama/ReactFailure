@@ -10,7 +10,7 @@ export default defineConfig({
       name: "grab-food",
       filename: "remoteEntry.js",
       remotes: {
-        headerAndFooter: "http://localhost:5001/assets/remoteEntry.js",
+        headerAndFooter: "https://toptotoe.netlify.app/assets/remoteEntry.js",
       },
       exposes: {
         "./MainContent": "./src/components/MainContent",
@@ -24,13 +24,4 @@ export default defineConfig({
     minify: false,
     cssCodeSplit: false,
   },
-  preview: {
-    cors: {
-      origin: 'http://localhost:5173',
-    },
-    headers: {
-      'Access-Control-Allow-Origin': 'http://localhost:5173',
-      'access-control-allow-headers': 'http://localhost:5173',
-    }
-  }
 })
