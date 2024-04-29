@@ -47,10 +47,10 @@ function Order() {
                             <img src="https://food-cms.grab.com/compressed_webp/items/VNITE2022121508003350584/photo/menueditor_item_193a7f5a2ef64314ae6c04b8009a9382_1671091204310774447.webp"
                                 alt="" className="size-12 rounded" />
                         </div>
-                        <div className="basis-2/6 md:basis-3/6 text-xs md:text-lg content-center">
+                        <div className="basis-2/6 md:basis-3/6 text-xs md:text-lg content-center text-right md:text-left">
                             <p>Cơm rang hải sản + Coca</p>
                         </div>
-                        <div className="collapse basis-0 md:basis-1/6 md:visible content-center text-right">
+                        <div className="hidden md:block md:basis-1/6 content-center text-right">
                             <p>62.000</p>
                         </div>
                     </div>
@@ -92,12 +92,12 @@ function Order() {
                 <div className="bg-white rounded px-3 md:px-7 py-3 divide-y space-y-3">
                     <p className="font-bold text-xl">Khuyến mãi</p>
                     <div className="flex flex-row py-5">
-                        <div className="basis-4/6 pr-1 md:pr-10 space-y-3">
+                        <div className="basis-3/6 md:basis-4/6 pr-1 md:pr-10 space-y-3">
                             <input className="border border-[#C0C0C0] text-xs md:text-lg hover:border-[#00B14F] rounded-lg w-full px-5 py-3" type="text" placeholder="Nhập mã khuyến mãi" />
                             <div className="border border-[#C0C0C0] hover:border-[#00B14F] rounded-lg px-5 py-3">
                                 <p className="text-lg font-bold">ZaloPay - Giảm 20%</p>
                                 <p className="text-md mt-2">Promo Code: <span className="text-[#00B14F] font-bold">ZALOPAYGF1</span></p>
-                                <div className="flex flex-row">
+                                <div className="md:flex flex-row">
                                     <div className="basis-4/6 content-center">
                                         <p className="text-sm text-[#808080]">Valid 2024-04-05 to 2024-04-30</p>
                                     </div>
@@ -107,7 +107,7 @@ function Order() {
                                 </div>
                             </div>
                         </div>
-                        <div className="basis-2/6 px-5 text-xs md:text-lg">
+                        <div className="basis-3/6 md:basis-2/6 px-5 text-xs md:text-lg">
                             <p className="bg-[#00B14F] hover:bg-[#F7F7F7] text-white hover:text-[#00B14F] cursor-pointer text-center font-bold rounded-lg py-3">Áp dụng</p>
                         </div>
                     </div>
