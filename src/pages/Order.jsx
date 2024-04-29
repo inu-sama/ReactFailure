@@ -107,7 +107,7 @@ function Order() {
                                 </div>
                             </div>
                         </div>
-                        <div className="basis-3/6 md:basis-2/6 px-5 text-xs md:text-lg">
+                        <div className="basis-3/6 md:basis-2/6 px-2 md:px-5 text-xs md:text-lg">
                             <p className="bg-[#00B14F] hover:bg-[#F7F7F7] text-white hover:text-[#00B14F] cursor-pointer text-center font-bold rounded-lg py-3">Áp dụng</p>
                         </div>
                     </div>
